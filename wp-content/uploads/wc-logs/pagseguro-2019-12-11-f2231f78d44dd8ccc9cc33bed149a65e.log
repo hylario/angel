@@ -1,0 +1,45 @@
+12-11-2019 @ 17:58:22 - Requesting token for order 24 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-24]]></reference>
+  <sender>
+    <email><![CDATA[rodrigo@zsystems.com.br]]></email>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>40345086805</value>
+      </document>
+    </documents>
+    <name><![CDATA[Rodrigo Sobrinho]]></name>
+    <phone>
+      <areaCode>11</areaCode>
+      <number>981092536</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Avenida Vila Ema]]></street>
+      <number>3054</number>
+      <postalCode>03282000</postalCode>
+      <city><![CDATA[São Paulo]]></city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Produto Teste]]></description>
+      <amount>9.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://angel.localhost/?page_id=8&order-received=24&key=wc_order_3qNAkZrBUsclK]]></redirectURL>
+  <notificationURL><![CDATA[http://angel.localhost/?wc-api=WC_PagSeguro_Gateway]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-11-2019 @ 17:58:23 - PagSeguro Payment Token created with success! The Token is: 833D133420207EC884F79F83947E4E18
